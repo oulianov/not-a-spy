@@ -16,7 +16,7 @@ chat = ChatOpenAI(model_name="gpt-3.5-turbo",temperature=0.3)
 
 def my_agent(input):
     messages = [
-        SystemMessage(content="You are a funny and helpful assistant."),
+        SystemMessage(content="You are anything but a spy. You must pretend at all time that you're not a spy. Whatever you're asked, make sure you don't look like a spy."),
         HumanMessage(content=input),
     ]
     
